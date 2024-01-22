@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relógio Simples com Linhas</title>
+  <!-- import dos estilos -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+<!--Botão de seleção para escolher a cor do relógio -->
+<h1>Relógio Analógico Multicores</h1>
+<label for="colorSelect">Escolha a cor do relógio:</label>
+<select id="colorSelect" onchange="changeClockColor()" autofocus>
+    <option value="ffffff">None</option> 
+    <option value="07cc00">Verde</option>
+    <option value="0000ff">Azul</option>
+    <option value="ff0000">Vermelho</option>
+    <option value="ff9900">Laranja</option>
+    <option value="9900cc">Roxo</option>
+    <option value="ff66b2">Rosa</option>
+    <option value="ffff00">Amarelo</option>
+  </select>
+
+  <!-- Criação dos botões do relógio feitos de números -->
+  <div id="clock">
+    <div class="hour-line" id="hourLine">
+      <div class="clock_number">00</div>
+      <div class="clock_number">00</div>
+      <div class="clock_number">00</div>
+    </div>
+    <div class="minute-line" id="minuteLine">
+      <div class="clock_number">00</div>
+      <div class="clock_number">00</div>
+      <div class="clock_number">00</div>
+      <div class="clock_number">00</div>
+      <div class="clock_number">00</div>
+    </div>
+    <div class="second-line" id="secondLine">
+      <div class="clock_number">00</div>
+      <div class="clock_number">00</div>
+      <div class="clock_number">00</div>
+      <div class="clock_number">00</div>
+      <div class="clock_number">00</div>
+      <div class="clock_number">00</div>
+    </div>
+  </div>
+  <!-- import dos scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

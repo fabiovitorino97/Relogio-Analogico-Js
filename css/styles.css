@@ -1,0 +1,38 @@
+#clock {
+    color: #ffffff;  
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    font-size: 24px;
+    border: 5px solid #ffffff; /* Cor verde-amarelado para a borda do relógio */
+    border-radius: 50%; /* Transforma o relógio em um círculo */
+    background-color: black;
+  }
+
+  .hour-line,
+  .minute-line,
+  .second-line {
+    position: absolute;
+    transform-origin: 50% 100%;
+    padding-bottom: 15%;
+    left: 50%;
+  }
+
+  .hour-line {
+    width: 6px;
+    height: 60px;
+    top: 90px;
+  }
+
+  .minute-line {
+    width: 4px;
+    height: 80px;
+    top: 40px;
+  }
+
+  .second-line {
+    width: 2px;
+    height: 100px;
+    top: 25px;
+  }
