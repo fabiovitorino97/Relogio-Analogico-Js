@@ -21,8 +21,8 @@ Escolha a cor do relógio no menu suspenso.
 
 Explore as funcionalidades do relógio.
 
-##Como Usar Online (GitHub Pages)
+## Como Usar Online (GitHub Pages)
 Você também pode acessar o relógio online através do GitHub Pages. [Clique aqui](https://fabiovitorino97.github.io/Relogio-Analogico-Js/) para visualizar a versão online.
 
-##Contribuição
+## Contribuição
 Sinta-se à vontade para contribuir com melhorias. Abra uma issue ou envie um pull request!
