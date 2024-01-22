@@ -15,7 +15,6 @@ Inclua aqui um link ou uma descrição de como os usuários podem acessar ou tes
 ## Como Usar
  Clone este repositório:
 
-   ```bash
 Abra o arquivo index.html em um navegador da web.
 
 Escolha a cor do relógio no menu suspenso.
@@ -23,7 +22,7 @@ Escolha a cor do relógio no menu suspenso.
 Explore as funcionalidades do relógio.
 
 Como Usar Online (GitHub Pages)
-Você também pode acessar o relógio online através do GitHub Pages. [Clique aqui]() para visualizar a versão online.
+Você também pode acessar o relógio online através do GitHub Pages. [Clique aqui](https://fabiovitorino97.github.io/Relogio-Analogico-Js/) para visualizar a versão online.
 
 Personalização Adicional (Opcional)
 Descreva quaisquer opções adicionais de personalização que o usuário pode explorar.
